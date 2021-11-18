@@ -1,0 +1,53 @@
+@import "nulling";
+@import "header";
+@import "footer";
+@import "aboutus";
+@import "catalog";
+@import "collections";
+@import "catalogheader";
+@import "main-catalog-style";
+@mixin font($font_name, $file_name, $weight, $style) {
+	@font-face {
+		font-family: $font_name;
+		font-display: swap;
+		src: url("../fonts/#{$file_name}.woff2") format("woff2"), url("../fonts/#{$file_name}.woff") format("woff");
+		font-weight: #{$weight};
+		font-style: #{$style};
+	}
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+.wrapper {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+
+}
+.content {
+	flex: 1 1 auto;
+
+}
+
+.subtext {
+	height: 280px;
+	display: flex;
+	align-items: center;
+	background: #f2f2f2;
+
+
+	&__text {
+		margin: 0px auto;
+		text-align: center;
+		width: 580px;
+
+		color: #252525;
+		font-size: 16px;
+		font-weight: 500;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: 24px;
+	}
+}
+
+@import "fonts";

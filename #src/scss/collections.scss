@@ -1,0 +1,63 @@
+.collections {
+   padding: 220px 0px;
+   &__content {
+      width: 1384px;
+      margin: 0px auto;
+
+   }
+
+   &__title {
+      color: #252525;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 50px;
+      margin: 0px 0px 70px 0px;
+   }
+
+   &__row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   &__column {
+   }
+
+   &__row-items {
+      display: flex;
+      width: 1040px;
+      justify-content: space-between;
+   }
+   &__button-left {
+      background: white;
+   }
+   &__button-right {
+      background: white;
+   }
+}
+.item {
+
+   &__column {
+      width: 330px;
+   }
+
+   &__img {
+      height: 402px;
+      background: #e7e7e7;
+      margin: 0px 0px 10px 0px;
+
+   }
+
+   &__name {
+      color: #252525;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 19.6px;
+      margin: 0px 0px 7px 0px;
+   }
+
+   &__price {
+      color: #545454;
+      font-weight: 700;
+   }
+}
