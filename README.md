@@ -5,4 +5,4 @@ https://ripkakirill.github.io/Clothing_shop/clothing_store/
 
 папка clothing_store собрана сборщиком
 
-ps добавлена кнопка переход в каталог
+ps добавлена кнопка "перейти в каталог"
